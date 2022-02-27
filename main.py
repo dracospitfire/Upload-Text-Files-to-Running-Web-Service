@@ -8,7 +8,7 @@ path = "." #/data/feedback
 
 for file in os.listdir(path):
   if file.endswith(".txt"):
-    file = open(file, "r") #os.path.join(path
+    file = open(file, "r") #os.path.join(path,
     text = file.readlines()
     review = {}
     review.update({"title":text[0].strip("\n")})
